@@ -7,7 +7,7 @@
     var images = newImages();
 
     // Internet Explorer 6-11
-    var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    var isIE = /*@cc_on!@*/false || !!document?.documentMode;
     // Edge 20+
     var isEdge = !isIE && !!window.StyleMedia;
 
